@@ -1,0 +1,81 @@
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.titolo{
+    width: 1000px;
+    height: 100px;
+    background-color: fuchsia;
+    margin-left: 17%;
+    
+}
+
+.contenutotitolo{
+
+    width: 1000px;
+    height: 350px;
+    background-color: rgb(252, 252, 129);
+    margin-left: 17%;
+    margin-top: 30px;
+}
+
+.contenutomain{
+
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(60, 60, 255);
+    margin-left: 17%;
+    margin-top: 30px;
+}
+
+.divfooter{
+
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(85, 73, 165);
+    margin-left: 17%;
+    margin-top: 15px;
+}
+
+ 
+.secondomain,
+.terzomain,
+.quartomain{
+    float: left;
+}
+
+.primomain{
+
+    width: 1000px;
+    height: 70px;
+    background-color: rgb(37, 183, 231);
+}
+
+.secondomain{
+    width: 200px;
+    height: 510px;
+    background-color:  rgb(37, 183, 231) ;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.terzomain{
+
+    width: 500px;
+    height: 510px;
+    background-color:  rgb(37, 183, 231) ;
+    margin-top: 10px;
+    
+}
+
+.quartomain{
+    width: 200px;
+    height: 510px;
+    background-color:  rgb(37, 183, 231) ;
+    margin-top: 10px;
+    margin-left: 50px;
+}
